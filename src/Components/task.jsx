@@ -1,9 +1,12 @@
 import React from 'react'
 import "../Styles/task.css"
+import {calculateUser} from "../Scripts/UserScripts" 
+import { encrypt } from '../Scripts/utils'
 
 export default function task(props) {
 
     const task = props.task
+    
     
 
     return (
